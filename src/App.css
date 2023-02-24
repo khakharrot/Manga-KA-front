@@ -1,0 +1,299 @@
+body{
+    background-image: url(https://images5.alphacoders.com/121/1217525.png);
+    background-position: center;
+    background-repeat: no-repeat;
+  background-size: cover
+}
+.App{
+    margin: 200px 200px 0px 200px;
+    background-color: rgba(0, 0, 0, 0.636);
+    border-radius: 20px;
+}
+.linkLogo{
+    display: flex;
+  justify-content: flex-start;
+  align-items: center;
+    height: 200px;
+    padding-left: 50px;
+
+}
+h3{
+    color: #7abbe5;
+}
+.Logo{
+    width: 500px;
+    height: 180px;
+}
+.navbar{
+    background-color: #080518ba;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+.headerUser{
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 7px;
+}
+.headerGuest{
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    text-align: right;
+    align-items: center;    
+}
+.search{
+    margin-left: 585px;
+    margin-right: 585px;
+}
+.mangaList{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.mangaImg{
+    height: 240px;
+    width: 290px;
+    padding-left: 5px;
+    border-radius: 20px;
+}
+
+.mangaTitle{
+    color: rgb(248, 248, 248);
+    display: flex;
+    justify-content: center;
+}
+
+.Modal{
+    width: 500px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    border: 2px solid rgb(0 0 0);
+    background-color: #121a21;
+    border-radius: 20px;
+    margin-left: 700px;
+    margin-top: 350px;
+}
+.Modalupdatemanga{
+    width: 500px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    border: 2px solid rgb(0 0 0);
+    background-color: #121a21;
+    border-radius: 20px;
+    margin-left: 700px;
+    margin-top: 350px;
+}
+.ModalSignup{
+    width: 500px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    border: 2px solid rgb(0 0 0);
+    background-color: #121a21;
+    border-radius: 20px;
+    margin-left: 700px;
+    margin-top: 350px;
+}
+.ModalHeader  {
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    
+}
+
+label{
+    color: aliceblue;
+}
+.ModalBody {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.ModalBodySignup{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+button {
+    background-color: black;
+    color: #7abbe5;
+    border: 1px solid rgb(190, 190, 190);
+    width: 64px;
+    height: 29px;
+    margin: 5px 5px 5px 5px;
+    border-radius: 20px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+.Modal-div{
+    display: flex;
+    align-items: center;
+}
+.MangaCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 5px solid #080518cd;
+    width: 300px;
+    height: 310px;
+ margin: 5px 5px 5px 5px;
+ border-radius: 20px;
+}
+.presentation{
+    color: white;
+    padding-left: 5px;
+    font-size: 25px;
+}
+.mangaslist{
+    color: gold;
+    font-size: 30px;
+    margin-bottom: 0px;
+
+} 
+.add{
+    color: #7abbe5;
+    justify-self: flex-end;
+    margin-top: 0px;
+}
+.genre {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 10px 0px 10px;
+}
+input {
+    width: 200px;
+    margin: 5px 0px 5px 0px;
+} 
+.mangaPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    margin: 0px 10px 0px 10px;
+}
+.mangaPageTitle{
+    color: #7abbe5;
+    font-size: 75px;
+    display: flex;
+    justify-content: center;
+}
+.mangaPagePicture{
+    width: 600px;
+    height: 600px;
+    margin-left: 430px;
+    margin-bottom: 50px;
+}
+.mangaPageP{
+    display: flex;
+    flex-direction: column;
+    color: antiquewhite;
+    font-size: 20px;
+}
+.mangaGenre{
+    display: flex;
+    flex-direction: column;
+    color: antiquewhite;
+    font-size: 20px;
+
+}
+.newText{
+    display: flex;
+    flex-direction: column;
+    color: antiquewhite;
+    font-size: 20px;
+}
+.genreBox{
+    display: inline-flex;
+   flex-direction: column;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: baseline;
+    max-width: 500px;
+    max-height: 500px;
+}
+.genreP{
+    color:white;
+    font-size: 15px;
+}
+.genreButton{
+    align-self: center;
+    width: 75px
+}
+.account{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 10px 0px 10px;
+}
+.accountPic{
+    width: 250px;
+    height: 250px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 120px
+}
+.buttons {
+    display: flex;
+    flex-direction: row;
+    width: 150px;
+    height: 50px;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.636);
+    color: wheat;
+    margin: 0px 10px 0px 10px;
+}
+.usersContainer{
+    display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-top: 20px;
+  position: absolute;
+  top: 80;
+  right: 0;
+  margin-right: 600px
+}
+.usersTitle{
+    color: azure;
+    font-size: 30px;
+}
+.userslist{
+    font-size: 20px;
+}
+.connected {
+    color: green;
+  }
+  
+  .disconnected {
+    color: red;
+  }
+  .accountData{
+    border: 2px solid #7abbe5;
+  }
+  .accountBTN{
+    color: #7abbe5;
+  }
